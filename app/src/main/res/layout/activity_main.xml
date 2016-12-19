@@ -12,7 +12,23 @@
     tools:context="nl.groenier.android.capnow.MainActivity">
 
     <TextView
+        android:id="@+id/textViewIntro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/buttonGetCaptures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewIntro"
+        android:text="Get all Captures"/>
+
+    <Button
+        android:id="@+id/buttonCreateCapture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonGetCaptures"
+        android:text="Create Capture"/>
+
 </RelativeLayout>
